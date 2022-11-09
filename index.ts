@@ -8,4 +8,13 @@
   img.onload = () => {
     ctx?.drawImage(img, 0, 0)
   }
+  ctx?.strokeStyle = '#000'
+  ctx?.lineWidth = 2;
+  ctx?.beginPath()
+  ctx?.moveTo(0, 0)
+  ctx?.lineTo(0, 50)
+  ctx?.moveTo(10, 50)
+  ctx?.lineTo(10, 0)
+  ctx?.closePath()
+  ctx?.fillText
 }
